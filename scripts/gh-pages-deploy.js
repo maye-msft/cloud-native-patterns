@@ -13,7 +13,8 @@ async function execa(cmd, options) {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     console.log("Building...");
-    await execa("npm", ["run", "build"]);
+    await execa("npm", ["run", "docs:build"]);
+    await execa("cd", ["docs/.vuepress"]);
     // Understand if it's dist or build folder
     const folderName = fs.existsSync("dist") ? "dist" : "build";
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
