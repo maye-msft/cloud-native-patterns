@@ -1,0 +1,17 @@
+{
+  "ARM": {
+    "name": "ARM"
+  },
+  "AzureCLI": {
+    "name": "Azure CLI"
+  },
+  "Bicep": {
+    "name": "Bicep"
+  },
+  "PowerShell": {
+    "name": "PowerShell"
+  },
+  "Terraform": {
+    "name": "Terraform"
+  }
+}

@@ -1,12 +1,19 @@
 const { defaultTheme } = require("vuepress");
-// import { localTheme } from './theme'
+const { path } = require('@vuepress/utils')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const {localTheme} = require('./theme')
 // const {localTheme} = require('./theme')
 module.exports = {
   lang: "en-US",
   title: "Cloud Native Patterns",
   description: "This is my first VuePress site",
   base:"/cloud-native-patterns/",
-  theme: defaultTheme({
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+  ],
+  theme: localTheme({
     // default theme config
     navbar: [
       {
@@ -24,3 +31,7 @@ module.exports = {
       ],
     })
 };
+
+
+
+

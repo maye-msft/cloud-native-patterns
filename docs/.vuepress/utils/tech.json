@@ -1,0 +1,14 @@
+{
+  "Data": {
+    "name": "Data"
+  },
+  "ML/AI": {
+    "name": "ML/AI"
+  },
+  "Serverless": {
+    "name": "Serverless"
+  },
+  "Others": {
+    "name": "Others"
+  }
+}

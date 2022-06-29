@@ -1,0 +1,11 @@
+{
+  "ADO": {
+    "name": "Azure DevOps"
+  },
+  "Bamboo": {
+    "name": "Bamboo"
+  },
+  "Github Action": {
+    "name": "Github Action"
+  }
+}

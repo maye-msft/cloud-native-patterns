@@ -1,0 +1,19 @@
+{
+  "CSharp": {
+    "name": "C#",
+    "extension": ["cs"]
+  },
+  "Java": {
+    "name": "Java",
+    "extension": ["java", "jsp"]
+  },
+
+  "Node": {
+    "name": "Node",
+    "extension": ["js", "ts"]
+  },
+  "Python": {
+    "name": "Python",
+    "extension": ["py", "ipynb"]
+  }
+}

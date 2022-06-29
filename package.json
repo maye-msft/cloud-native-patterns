@@ -11,20 +11,12 @@
     "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.2.36"
+    "markdown-it": "^13.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.9",
-    "@vue/cli-plugin-eslint": "~4.5.9",
-    "@vue/cli-service": "~4.5.9",
-    "@vue/compiler-sfc": "^3.2.37",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "sass": "^1.53.0",
-    "sass-loader": "^13.0.1",
-    "vue-template-compiler": "^2.6.11",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.48",
+    "cheerio": "^1.0.0-rc.12",
+    "sass-loader": "^13.0.2",
     "vuepress": "^2.0.0-beta.48",
     "vuepress-webpack": "^2.0.0-beta.48",
     "webpack": "^5.73.0"
