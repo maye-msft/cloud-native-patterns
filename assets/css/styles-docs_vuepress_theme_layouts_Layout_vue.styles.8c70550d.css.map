@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/css/styles-docs_vuepress_theme_layouts_Layout_vue.styles.8c70550d.css","mappings":";;;AACA,WACE,iBACF,CAEA,GACE,WACF,C","sources":["webpack://cloudnativepatterns/./docs/.vuepress/theme/layouts/Layout.vue"],"sourcesContent":["\r\n.my-footer {\r\n  text-align: center;\r\n}\r\n\r\nh4 {\r\n  margin: 10px;\r\n}\r\n"],"names":[],"sourceRoot":""}
